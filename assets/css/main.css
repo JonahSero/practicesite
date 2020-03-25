@@ -1,0 +1,164 @@
+/*===============================
+*            general            *
+===============================*/
+html, body, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+  }
+
+h1{
+	font-family:Miratrix;
+	font-size: 7rem;
+	z-index: 2;
+}
+h2{
+	font-family:Miratrix;
+	font-size: 2rem;
+	margin: 0;
+	position: absolute;
+	width: 0;
+  	word-wrap: break-word;
+  	padding: .66rem;
+}
+canvas{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1 ;
+}
+
+#frame{
+
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.nav-buttons{
+	font-family:Miratrix;
+	font-size: 1.5rem;
+	margin: 0;
+  	word-wrap: break-word;
+  	padding: .66rem;
+  	left:0;
+  	background-color: transparent;
+  	border-color: transparent;
+  	position: absolute;
+	width: 2rem;
+}
+/*=====  End of general  ======*/
+
+
+/*=================================
+*            home-page            *
+=================================*/
+
+#home-page{
+	background-color: #5c8660;
+	background-position: 0 0;
+	background-size: 1rem 1rem;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	margin:0;
+	text-align: center;
+	z-index:0;
+
+}
+#home-page h1{
+	color: #004953;
+	margin: 0;
+	text-align: center;
+	padding-top: 3rem;
+
+}
+#micro{
+	position: relative;
+	left: -4rem;
+	z-index: 2;
+
+}
+
+#dot{
+	position: relative;
+	right: 1rem
+	z-index: 2;
+}
+#homer{
+	
+	color:#004953;
+  	bottom: 30%;
+  	z-index: 2;
+  }
+
+/*=====  End of home-page  ======*/
+
+/*===============================
+*            Designs            *
+===============================*/
+
+
+
+/*=====  End of Designs  ======*/
+
+/*=============================
+*            About            *
+=============================*/
+
+
+
+/*=====  End of About  ======*/
+
+/*===============================
+*            Contact            *
+===============================*/
+
+#contact{
+	background-color: #004953;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	margin:0;
+	text-align: center;
+	z-index: 2;
+	left: 97%;
+}
+#contactcard{
+	margin: auto;
+	top: 10%;
+	background-color: transparent;
+	width: 23rem;
+
+
+	border-color:transparent;
+	
+}	
+#contactcard h3{
+	color: #5c8660;
+	font-size: 3rem;
+	font-family:Miratrix;
+	font-size: 2.75rem;
+}
+#contactcard li{
+	color: #5c8660;
+	list-style: none;
+}
+#contacter{
+	color:#5c8660;
+	bottom: 0;
+}
+#card2{
+
+}
+/*=====  End of Contact  ======*/
+
+
